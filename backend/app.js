@@ -24,7 +24,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/tasks', taskRoutes);
 app.use('/api/profile', profileRoutes);
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`Server is lstening on http://localhost:${port}`);
 });
