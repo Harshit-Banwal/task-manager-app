@@ -47,28 +47,33 @@ Following are the major dev-dependencies of the project:
 
    Add to fields
 
+```bash
    - MONGODB_URL: "Your MongoDB URL" example - "mongodb://localhost:27017/your_databse_name"
    - ACCESS_TOKEN_SECRET: Any_Secret_Code example - Random letter.
+```
 
 2. Install all the backend dependencies
 
-````bash
+```bash
     cd backend
     npm install
+```
 
 3. Start the application
 
 ```bash
 npm run dev
+```
 
 4. Install all the frontend dependencies
 
 ```bash
 cd frontend
 npm install
+```
 
 5. Start the application
 
 ```bash
 npm start
-````
+```
